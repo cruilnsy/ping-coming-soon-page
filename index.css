@@ -1,0 +1,149 @@
+/*** box sizing border-box for all elements ***/
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer; }
+
+button {
+  background-color: transparent;
+  color: inherit;
+  border-width: 0;
+  padding: 0;
+  cursor: pointer; }
+
+figure {
+  margin: 0; }
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+input:focus, button:focus {
+  outline: none; }
+
+ul, ol, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit; }
+
+p {
+  margin: 0; }
+
+cite {
+  font-style: normal; }
+
+fieldset {
+  border-width: 0;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  min-width: 375px;
+  max-width: 1440px; }
+
+.container {
+  margin: 3rem auto;
+  width: 80%; }
+
+main {
+  padding: 3rem 0;
+  margin: auto;
+  max-width: 600px;
+  text-align: center; }
+  main header img {
+    max-width: 56px; }
+  main header h1 {
+    color: #969696;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 2rem 0 1rem; }
+    main header h1 span {
+      color: #151f29;
+      font-weight: 700; }
+  main header p {
+    font-size: 0.7rem; }
+  main form.notify {
+    display: flex;
+    flex-direction: column;
+    margin: 1.6rem 0; }
+    main form.notify label {
+      display: none; }
+    main form.notify input, main form.notify button {
+      width: 100%;
+      padding: 0.8rem 2rem;
+      margin: 0.5rem auto;
+      font-size: 1.2rem;
+      border-radius: 2rem;
+      font-size: 0.8rem; }
+    main form.notify input {
+      border: 0.05rem solid #c2d3ff; }
+    main form.notify input::placeholder {
+      color: #969696;
+      opacity: 0.5; }
+    main form.notify button {
+      background-color: #4f7df3;
+      color: white;
+      box-shadow: 0 2px 5px 3px #c2d3ff; }
+    main form.notify .notify__email-error {
+      color: #ff5263;
+      font-size: 0.6rem;
+      font-style: italic;
+      display: none; }
+    main form.notify .error .notify__email-error {
+      display: block; }
+    main form.notify .error input {
+      border-color: #ff5263; }
+  main .dashboard img {
+    width: 90%;
+    margin: 3rem 0; }
+  main .social {
+    margin: 3rem 0; }
+    main .social a {
+      padding: 0.5rem;
+      border-radius: 50%;
+      border: 1px solid #c2d3ff;
+      font-size: 0.8rem;
+      color: #4f7df3;
+      margin: 0 0.6rem; }
+    main .social i {
+      width: 0.9rem;
+      height: 0.9rem; }
+  main .copyright {
+    font-size: 0.7rem;
+    color: #969696;
+    margin: 1rem 0;
+    opacity: 0.7; }
+
+@media (min-width: 600px) {
+  .container {
+    box-shadow: 0 2px 10px 2px #969696; }
+
+  main {
+    max-width: 60%; }
+    main header h1 {
+      font-size: 1.8rem; }
+    main form.notify {
+      flex-direction: row; }
+      main form.notify .notify__email {
+        flex: 4 0 160px; }
+      main form.notify button {
+        flex: 1 0 160px;
+        margin-left: 1rem; }
+    main .dashboard img, main .social {
+      margin: 2rem 0; } }
+
+/*# sourceMappingURL=index.css.map */

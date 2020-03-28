@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap');
+
+$mobile-width: 375px;
+$desktop-width: 1440px;
+$breakpoint1: "(min-width: 600px)";
+$root-font-family: 'Libre Franklin', sans-serif;
+$root-font-size: 20px;
+$font-weight-small: 300;
+$font-weight-medium: 600;
+$font-weight-large: 700;
+$primary-blue: hsl(223, 87%, 63%);
+$secondary-pale-blue: hsl(223, 100%, 88%);
+$secondary-light-red: hsl(354, 100%, 66%);
+$neutral-gray: hsl(0, 0%, 59%);
+$neutral-very-dark-blue: hsl(209, 33%, 12%);
+$neutral-white: hsl(360, 100%, 100%);

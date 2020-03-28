@@ -25,18 +25,18 @@
         <p>Subscribe and get notified</p>
       </header>
       <form class="notify">
-        <label for="email" class="req_field">Email: </label>
         <div class="notify__email">
-          <input type="text" class="notify__email-field" placeholder="Your email address..." />
+          <label for="email" class="req_field">Email: </label>
+          <input type="text" aria-label="Email Input"  class="notify__email-field" placeholder="Your email address..." />
           <p class="notify__email-error">Please provide a valid email address</p>
         </div>
-        <button class="notify__notify-me">Notify Me</button>
+        <button class="notify__notify-me" aria-label="Notify me button">Notify Me</button>
       </form>
       <section class="dashboard">
         <img src="images/illustration-dashboard.png" alt="illustration dashboard" />
       </section>
       <section class="social">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a><i class="fab fa-facebook-f"></i></a>
         <a><i class="fab fa-twitter"></i></a>
         <a><i class="fab fa-instagram"></i></a>
       </section>
